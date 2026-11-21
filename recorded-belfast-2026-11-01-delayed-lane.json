@@ -1,0 +1,126 @@
+{
+  "_note": "Split on 2026-11-21 from baroque-duet-dance-1/session-recorded-delayed-lane.json, baroque-duo-1/session-recorded-delayed-lane.json, common-air-duet-1/session-recorded-delayed-lane.json, common-air-duet-dance-1/session-recorded-delayed-lane.json, demo-duo/session-recorded-delayed-lane.json, duet-1/session-recorded-delayed-lane.json. The grids without a camera play it with the camera and video closed; a solo seats only audio-room and audio-1.",
+  "_audioOutDeviceName": "Existential Audio Inc.: BlackHole 2ch",
+  "_syphonHeight": 1080,
+  "_syphonMode_options": "off | composite | layers | composite+layers",
+  "_syphonServerPrefix": "MarkSynth",
+  "_syphonWidth": 1920,
+  "audioBufferSize": 2048,
+  "audioOutDeviceName": "Apple Inc.: MacBook Pro Speakers",
+  "audioSources": [
+    {
+      "channels": [
+        3
+      ],
+      "file": "belfast-2026-10-31-to-11-01/take-2026-11-01-10-55-25-990-baroque-duo-1-violin-cello.wav",
+      "id": "audio-room",
+      "inputGainDb": 16.671238,
+      "reduce": "pick",
+      "startPosition": "00:05"
+    },
+    {
+      "channels": [
+        0
+      ],
+      "file": "belfast-2026-10-31-to-11-01/take-2026-11-01-10-55-25-990-baroque-duo-1-violin-cello.wav",
+      "id": "audio-1",
+      "inputGainDb": 6.7503195,
+      "reduce": "pick"
+    },
+    {
+      "channels": [
+        0
+      ],
+      "file": "belfast-2026-10-31-to-11-01/take-2026-11-01-10-55-25-990-baroque-duo-1-violin-cello-delayed-lane.wav",
+      "id": "audio-2",
+      "inputGainDb": 6.7503195,
+      "reduce": "pick",
+      "startPosition": "00:02"
+    }
+  ],
+  "autoSnapshotsEnabled": false,
+  "display": {
+    "brightness": "0.0",
+    "contrast": "1.03",
+    "cueAlpha": "0.10",
+    "exposure": "1.0",
+    "gamma": "2.2",
+    "hueShift": "0.0",
+    "saturation": "1.0",
+    "sideLevel": "0.7",
+    "tonemap": "Reinhard",
+    "whitePoint": "11.2"
+  },
+  "ffmpegBinaryPath": "/opt/homebrew/bin/ffmpeg",
+  "kind": "recorded",
+  "modPresets": {
+    "AudioDataSource": {
+      "_default": {
+        "MaxRms": 0.318935,
+        "MaxSpectralCentroid": 3749.48,
+        "MaxSpectralCrest": 0.914281,
+        "MaxSpectralFlatness": 0.973077,
+        "MaxZeroCrossingRate": 196.0,
+        "MinPitch": 63.544,
+        "MinRms": 0.00301653,
+        "MinSpectralCentroid": 1006.42,
+        "MinSpectralCrest": 0.202686,
+        "MinSpectralFlatness": 0.74864,
+        "MinZeroCrossingRate": 20.0,
+        "NoiseFloorRms": 0.00151185,
+        "OnsetEnergyScale": 0.0025,
+        "OnsetSpectralScale": 0.0083,
+        "OnsetThreshold": 30.0,
+        "PitchOctaves": 1.0
+      },
+      "bySource": {
+        "audio-1": {
+          "MaxRms": 0.18702403,
+          "MaxSpectralCentroid": 2960.9265,
+          "MaxSpectralCrest": 0.7000889,
+          "MaxSpectralFlatness": 0.98745877,
+          "MaxZeroCrossingRate": 115.69998,
+          "MinRms": 0.0017029094,
+          "MinSpectralCentroid": 1301.454,
+          "MinSpectralCrest": 0.1566553,
+          "MinSpectralFlatness": 0.8784801,
+          "MinZeroCrossingRate": 35.0,
+          "NoiseFloorRms": 0.0003679014,
+          "OnsetThreshold": 29.4
+        },
+        "audio-2": {
+          "MaxRms": 0.18702403,
+          "MaxSpectralCentroid": 2960.9265,
+          "MaxSpectralCrest": 0.7000889,
+          "MaxSpectralFlatness": 0.98745877,
+          "MaxZeroCrossingRate": 115.69998,
+          "MinRms": 0.0017029094,
+          "MinSpectralCentroid": 1301.454,
+          "MinSpectralCrest": 0.1566553,
+          "MinSpectralFlatness": 0.8784801,
+          "MinZeroCrossingRate": 35.0,
+          "NoiseFloorRms": 0.0003679014,
+          "OnsetThreshold": 29.4
+        },
+        "audio-room": {
+          "MaxRms": 0.15422383,
+          "MaxSpectralCentroid": 2781.129,
+          "MaxSpectralCrest": 0.5558024,
+          "MaxSpectralFlatness": 0.9854805,
+          "MaxZeroCrossingRate": 121.24991,
+          "MinRms": 0.025399063,
+          "MinSpectralCentroid": 1114.5417,
+          "MinSpectralCrest": 0.14009146,
+          "MinSpectralFlatness": 0.9648278,
+          "MinZeroCrossingRate": 39.0,
+          "NoiseFloorRms": 0.017113334,
+          "OnsetThreshold": 39.6
+        }
+      }
+    }
+  },
+  "rootSourceMaterialPath": "~/Documents/music-source-material",
+  "startHibernated": false,
+  "startRecordingOnFirstWake": false,
+  "syphonMode": "off"
+}

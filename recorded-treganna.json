@@ -1,0 +1,142 @@
+{
+  "_note": "Split on 2026-11-21 from baroque-duet-dance-1/session-treganna.json. The grids without a camera play it with the camera and video closed; a solo seats only audio-room and audio-1.",
+  "_audioOutDeviceName": "Existential Audio Inc.: BlackHole 2ch",
+  "_syphonHeight": 1080,
+  "_syphonMode_options": "off | composite | layers | composite+layers",
+  "_syphonServerPrefix": "MarkSynth",
+  "_syphonWidth": 1920,
+  "audioBufferSize": 2048,
+  "audioOutDeviceName": "Apple Inc.: MacBook Pro Speakers",
+  "audioSources": [
+    {
+      "channels": [
+        0
+      ],
+      "file": "misc/treganna-44k.wav",
+      "id": "audio-room",
+      "inputGainDb": 0.0,
+      "reduce": "pick",
+      "startPosition": "00:00"
+    },
+    {
+      "channels": [
+        0
+      ],
+      "file": "misc/treganna-44k.wav",
+      "id": "audio-1",
+      "inputGainDb": 0.0,
+      "reduce": "pick"
+    },
+    {
+      "channels": [
+        0
+      ],
+      "file": "misc/treganna-44k-voice2.wav",
+      "id": "audio-2",
+      "inputGainDb": 0.0,
+      "reduce": "pick",
+      "startPosition": "02:15"
+    }
+  ],
+  "autoSnapshotsEnabled": false,
+  "display": {
+    "brightness": "0.0",
+    "contrast": "1.03",
+    "cueAlpha": "0.10",
+    "exposure": "1.0",
+    "gamma": "2.2",
+    "hueShift": "0.0",
+    "saturation": "1.0",
+    "sideLevel": "0.7",
+    "tonemap": "Reinhard",
+    "whitePoint": "11.2"
+  },
+  "ffmpegBinaryPath": "/opt/homebrew/bin/ffmpeg",
+  "kind": "recorded",
+  "modPresets": {
+    "AudioDataSource": {
+      "_default": {
+        "MaxRms": 0.19488225,
+        "MaxSpectralCentroid": 3566.89453,
+        "MaxSpectralCrest": 0.72832787,
+        "MaxSpectralFlatness": 0.900931537,
+        "MaxZeroCrossingRate": 165.0,
+        "MinPitch": 63.544,
+        "MinRms": 0.0115424478,
+        "MinSpectralCentroid": 1239.14966,
+        "MinSpectralCrest": 0.115547113,
+        "MinSpectralFlatness": 0.756671131,
+        "MinZeroCrossingRate": 31.0,
+        "NoiseFloorRms": 0.00762243383,
+        "OnsetEnergyScale": 0.0025,
+        "OnsetSpectralScale": 0.0083,
+        "OnsetThreshold": 30.0,
+        "PitchOctaves": 1.0
+      },
+      "bySource": {
+        "audio-1": {
+          "MaxRms": 0.347200408,
+          "MaxSpectralCentroid": 2810.75366,
+          "MaxSpectralCrest": 0.940686464,
+          "MaxSpectralFlatness": 0.918518543,
+          "MaxZeroCrossingRate": 66.0,
+          "MinRms": 0.00576980691,
+          "MinSpectralCentroid": 767.28064,
+          "MinSpectralCrest": 0.235259473,
+          "MinSpectralFlatness": 0.72678864,
+          "MinZeroCrossingRate": 17.0,
+          "NoiseFloorRms": 0.00236204849
+        },
+        "audio-2": {
+          "MaxRms": 0.347200408,
+          "MaxSpectralCentroid": 2810.75366,
+          "MaxSpectralCrest": 0.940686464,
+          "MaxSpectralFlatness": 0.918518543,
+          "MaxZeroCrossingRate": 66.0,
+          "MinRms": 0.00576980691,
+          "MinSpectralCentroid": 767.28064,
+          "MinSpectralCrest": 0.235259473,
+          "MinSpectralFlatness": 0.72678864,
+          "MinZeroCrossingRate": 17.0,
+          "NoiseFloorRms": 0.00236204849
+        },
+        "audio-room": {
+          "MaxRms": 0.347200408,
+          "MaxSpectralCentroid": 2810.75366,
+          "MaxSpectralCrest": 0.940686464,
+          "MaxSpectralFlatness": 0.918518543,
+          "MaxZeroCrossingRate": 66.0,
+          "MinRms": 0.00576980691,
+          "MinSpectralCentroid": 767.28064,
+          "MinSpectralCrest": 0.235259473,
+          "MinSpectralFlatness": 0.72678864,
+          "MinZeroCrossingRate": 17.0,
+          "NoiseFloorRms": 0.00236204849
+        }
+      }
+    },
+    "VectorMagnitude": {
+      "bySource": {
+        "camera": {
+          "Max": "0.0008",
+          "Min": "0"
+        }
+      }
+    },
+    "VideoFlowSource": {
+      "bySource": {
+        "camera": {
+          "force": 3.0,
+          "threshold": 0.4
+        }
+      }
+    }
+  },
+  "rootSourceMaterialPath": "~/Documents/music-source-material",
+  "sourceVideoFile": "triskel/take-2026-06-21-13-57-22-592-raw-video.mp4",
+  "sourceVideoMute": true,
+  "sourceVideoStartPosition": "18:10",
+  "startHibernated": false,
+  "startRecordingOnFirstWake": false,
+  "syphonMode": "off"
+}
